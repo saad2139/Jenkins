@@ -13,7 +13,7 @@ function login() {
         "username": username,
         "password": password
     }
-    xhttp.open('POST', 'http://localhost:8080/ReimbursementApp/');
+    xhttp.open('POST', './');
     xhttp.send(JSON.stringify(user));
 
 }
