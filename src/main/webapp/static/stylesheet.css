@@ -1,0 +1,28 @@
+body{
+    background-color: gainsboro;
+}
+.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+
+  .Absolute-Center.is-Responsive {
+    width: 60%; 
+    height: 60%;
+    padding: 70px;
+  }
+  .formTitles {
+    padding-bottom: 30px;
+  }
+  .shadow {
+    box-shadow: 10px 20px 20px 10px grey;
+    color: white;
+    background-color: skyblue;
+    border-radius: 20px;
+  }
+  .alignButton {
+    padding-bottom: 10px;
+  }
+
+
